@@ -1,4 +1,4 @@
-# Factors_afecting_insurance_rates
+# Factors_affecting_insurance_rates
 The project explores variables that can affect insurance rates
 
 ## Introduction
@@ -17,6 +17,7 @@ Exploratory data analysis techniques were employed to gain insights into the rel
 To further explore the impact of smoking status on insurance charges, a bar plot was generated. The plot clearly illustrated that smokers had insurance charges approximately 3.8 times higher than non-smokers (Fig. 2a). This finding aligned with the observations from the correlation matrix, emphasizing the substantial influence of smoking status on insurance charges.
 
 ![image](https://github.com/VTomar88/Factors_affecting_insurance_rates/assets/107073327/68326c72-6486-45f1-bf2b-10c0037e5308)
+
 **Figure 1.** Correlation matrix depicting the heat map to provide an understanding of relationship among different variables.
 
 Additionally, scatter plots were created to examine the impact of smoking status and age on insurance charges (Fig. 2b). The plots indicated that smoking status had a more substantial effect on insurance charges compared to age. Although there was a slight increase in charges with age, the difference in charges between smokers and non-smokers remained significant across all age groups.
@@ -28,11 +29,13 @@ Furthermore, the relationship between insurance charges and BMI was explored thr
 Lastly, the impact of region on insurance charges was assessed using a bar plot (Fig. 2e). Although the differences were relatively minor, the Southeast region had the highest insurance charges compared to other regions.
 
 ![image](https://github.com/VTomar88/Factors_affecting_insurance_rates/assets/107073327/ac62aca7-d009-4844-8c93-57d8116f0e80)
+
 **Figure 2.** Exploratory data analysis. a) Smoking status vs insurance charges, b) Relation of age and insurance cost, c) Relation between number of children and insurance charges, d) Relation between BMI and insurance charges, and e) Insurance charges with region.
 
 A linear regression model was successfully constructed to predict insurance charges based on various features, including age, BMI, sex, smoking status, the number of children, and region. The categorical variables were transformed into numerical values through the creation of dummy variables, and the dataset was split into training and testing sets. The linear regression model achieved a reasonable R-squared value of 0.799 on the test set, indicating its ability to predict charges within 20% of the actual values. This model can be utilized by insurance companies to predict charges for potential customers and identify the key drivers of insurance costs (Fig. 3). Further research can be conducted to enhance the model's performance and compare it with alternative machine learning algorithms.
 
 ![image](https://github.com/VTomar88/Factors_affecting_insurance_rates/assets/107073327/63ad2bd5-f452-4eb8-be14-f0b2c4ce159d)
+
 **Figure 3.** Comparison between real insurance price and prediction price that were calculated using the fitting of linear regression model.
 
 ## Ethical Concerns and Risks
